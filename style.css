@@ -1,0 +1,99 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color:   #2eb8b8;
+    height: 150px;
+    position: relative;
+    justify-content: space-between ;
+    text-align: center;
+    padding: 15px 30px;
+
+}
+
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+nav ol li{
+    margin: 0 2px;
+}
+nav ol li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+nav ol li:hover a{
+    background-color: white;
+    color: #2eb8b8;
+    border-radius: 20px;
+}
+
+nav .search_box{
+    display: flex;
+    margin: auto 0;
+    height: 40px;
+    line-height: 40px;
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 500px;
+    color: black;
+    border-radius: 8px;
+}
+nav .search_box span{
+    font-size: 20px;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+@media screen and (max-width: 1250px) {
+    nav{
+        display: block;
+        padding: 0;
+    }
+
+    nav .search_box{
+        width: 100%;
+        display: inline-flex;
+        justify-self: center;
+        margin-bottom: 1px;
+    }
+    nav ol{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ol li{
+        text-align: center;
+    }
+
+
+}
+
+
+.logoimg{
+    height: 80px;
+    width: 12%;
+    margin-left: 3%;
+    margin-top: 1%; 
+}
