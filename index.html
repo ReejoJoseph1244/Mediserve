@@ -6,26 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mediserve- India ki apni Pharmacy</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+    <script src="https://kit.fontawesome.com/86b20e3fb3.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
     <header>
         <nav>
-            <img src="logo2.png" alt="logo class" class="logoimg"/>
+            <img src="images/logo2.png" alt="logo class" class="logoimg"/>
             <div class="search_box">
-                <div class="delivery">
-                    <h4>Deliver to</h4>
-                    <i class="fa fa-angle-down"></i>
-                </div>
+                <select id="delivery">
+                    <option value="" class="textcolor">Deliver to <strong>110008</strong></option>
+                    <option value="" class="textcolor">Banglour</option>
+                    <option value=""class="textcolor">Pune</option>
+                    <option value="" class="textcolor">kolkata</option>
+                  </select>
                 <input type="search" placeholder="Search for Medicine & wellness Products">
-                <span class="fa fa-search"></span>
+
             </div>
             <ol>
-                <li><a href="#">Hello, Login</a></li>
-                <li><a href="#">Offers</a></li>
-                <li><a href="#">Cart</a></li>
+                
+                <li><a href="#"><i class="fa-solid fa-circle-user"></i> Hello, Login</a></li>
+                <li><a href="#"><i class="fa-solid fa-tags"></i> Offers</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-plus"></i> Cart</a></li>
             </ol>
+        </nav>
+        <nav>
+            <section>
+                <ol>
+                    <li><a><img src="images/1533792.png"> Medicine</a></li>
+                    <li><a><img src="images/ordermedicinnew.svg"> Wellness</a></li>
+                    <li><a class="tt"><img src="images/cold-and-fever.jpg"> Lab Tests</a></li>
+                    <li><a class="tt"><img src="images/beauty_products.svg"> Beauty</a></li>
+                    <li><a class="tt"><img src="images/women-s-care.jpg"> Health Corner</a></li>
+                </ol>
+            </section>    
         </nav>
     </header>
         
