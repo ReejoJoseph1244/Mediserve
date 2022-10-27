@@ -10,12 +10,18 @@ nav{
     display: flex;
     width: 100%;
     background-color:   #2eb8b8;
-    height: 150px;
+    /* height: 150px; */
     position: relative;
     justify-content: space-between ;
     text-align: center;
     padding: 15px 30px;
 
+}
+.logoimg{
+    height: 80px;
+    width: 12%;
+    margin-left: 3%;
+    margin-top: 1%; 
 }
 
 nav ol{
@@ -40,12 +46,33 @@ nav ol li:hover a{
     color: #2eb8b8;
     border-radius: 20px;
 }
+nav ol li:hover i{
+    background-color: white;
+    color: #2eb8b8;
+    border-radius: 20px;
+}
 
 nav .search_box{
     display: flex;
     margin: auto 0;
     height: 40px;
     line-height: 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+#delivery{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    color: black;
+
+}
+.textcolor{
+    color: black;
 }
 nav .search_box input{
     border: none;
@@ -56,17 +83,34 @@ nav .search_box input{
     font-size: 20px;
     width: 500px;
     color: black;
+    border-radius: 10px;
     border-radius: 8px;
+
 }
-nav .search_box span{
-    font-size: 20px;
-    height: 100%;
-    padding: 8px;
-    position: relative;
-    cursor: pointer;
-    z-index: 1;
-    
-}
+/* .flex {
+    display: flex;
+  }
+.nav-section-2 {
+    justify-content: space-around;
+    padding: 0px 150px 15px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .nav-section-2 div > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  } */
+  nav ol li a img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 70px;
+    vertical-align: middle;
+  }
+
+
 @media screen and (max-width: 1250px) {
     nav{
         display: block;
@@ -91,9 +135,4 @@ nav .search_box span{
 }
 
 
-.logoimg{
-    height: 80px;
-    width: 12%;
-    margin-left: 3%;
-    margin-top: 1%; 
-}
+
