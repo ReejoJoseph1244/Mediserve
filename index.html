@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" type="image/x-icon" href="images/logo.png"> -->
+    <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
     <title>Mediserve- India ki apni Pharmacy</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/86b20e3fb3.js" crossorigin="anonymous"></script>
+    
+   
+
     
 </head>
 <body>
@@ -15,10 +20,11 @@
             <img src="images/logo2.png" alt="logo class" class="logoimg"/>
             <div class="search_box">
                 <select id="delivery">
-                    <option value="" class="textcolor">Deliver to <strong>110008</strong></option>
-                    <option value="" class="textcolor">Banglour</option>
-                    <option value=""class="textcolor">Pune</option>
-                    <option value="" class="textcolor">kolkata</option>
+                    <option value="" >Deliver to <strong>110008</strong></option>
+                    <option value="" >Bangalore</option>
+                    <option value="" >New Delhi</option>
+                    <option value="">Pune</option>
+                    <option value="" >kolkata</option>
                   </select>
                 <input type="search" placeholder="Search for Medicine & wellness Products">
 
@@ -42,7 +48,50 @@
             </section>    
         </nav>
     </header>
-        
+    <!-- nav and header Ends -->
+
+    <!-- categories -->
+    <div class="categories">
+        <ol>
+            <li>COVID Essentials</li>
+            <li>Skin Care</li>
+            <li>Home Care</li>
+            <li>Ayurvedic Care</li>
+            <li>Fitness supplements</li>
+            <li>Diabetic Care</li>
+            <li>Mother and Baby Care</li>
+            <li>Health Food and Drinks</li>
+            <li>Ayush</li>
+        </ol>
+    </div>
+    <!-- categories section Ends-->
+
+    <!-- Image slider -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/1666362146_Home_Bannernms20.jpg" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/bd7258551fa-STAR25.webp" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/nivea_offers_web_12.webp" style="width: 100%;">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+
+    </div>
+   
     
+        
+    <script src="main.js"></script>
 </body>
 </html>
