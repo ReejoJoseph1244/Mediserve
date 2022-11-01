@@ -98,28 +98,7 @@ nav .search_box input{
 
 
 
-@media screen and (max-width: 1250px) {
-    nav{
-        display: block;
-        padding: 0;
-    }
 
-    nav .search_box{
-        width: 100%;
-        display: inline-flex;
-        justify-self: center;
-        margin-bottom: 1px;
-    }
-    nav ol{
-        display: flex;
-        flex-direction: row;
-    }
-    nav ol li{
-        text-align: center;
-    }
-
-
-}
 
 /* nav bar style ends */
 
@@ -127,6 +106,7 @@ nav .search_box input{
 
 .categories{
     height: 25px;
+    padding-bottom: 2rem;
 }
 
 .categories ol {
@@ -261,7 +241,7 @@ img{
 .cart{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 360px;
     min-height: 100vh;
     padding: 20px;
@@ -348,4 +328,59 @@ img{
     font-size: 2rem;
     color: black;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Making Responsive */
+@media screen and (max-width: 1200px) {
+    nav{
+        display: block;
+        padding: 0;
+    }
+
+    nav .search_box{
+        width: 100%;
+        display: inline-flex;
+        justify-self: center;
+        margin-bottom: 1px;
+    }
+    nav ol{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ol li{
+        text-align: center;
+    }
+
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .categories{
+        margin-bottom: 3rem;
+    }
+    .shop-content{
+        margin-top: 2rem !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .nav{
+        padding: 11px;
+    }
+    .cart{
+        width: 320px;
+    }
+}
+@media screen and (max-width: 360px){
+    .shop{
+        margin-top: 1rem !important;
+    }
+    .cart{
+        width: 280px;
+    }
 }
