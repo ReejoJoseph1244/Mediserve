@@ -96,7 +96,11 @@ nav .search_box input{
     vertical-align: middle;
   }
 
-
+.no-hover ol li a:hover{
+  background-color: #2eb8b8;
+  color: #fff;
+  cursor: pointer;
+}
 
 
 
@@ -352,6 +356,7 @@ img{
   .offer-section > .flex {
     border: 2px solid red;
     width: 33.33%;
+    
   }
   .offer-section > div > .flex > img {
     width: 60px;
@@ -446,3 +451,78 @@ img{
         width: 280px;
     }
 }
+/* footer */
+.footer{
+    background-color: #2eb8b8;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.footer img{
+    height: 90px;
+}
+.footer-section1{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    padding: 1rem 0;
+}
+.footer-section2{
+    display: flex;
+    width: 100%;
+}
+.horizontal-line{
+    margin: 2rem;
+}
+.div-sections{
+    margin-left: 2rem;
+    font-size: 18px;
+}
+.div-sections ol{
+    list-style: none;
+    margin: auto 0;
+}
+.div-sections ol li{
+    padding: 5px 0;
+}
+.div-sections ol li a{
+    cursor: pointer;
+}
+.div-sections ol li a i{
+    font-size: 30px;
+}
+.div-sections img{
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+}
+.div-finalsection{
+    right: 0px;
+    max-width: 100%;
+}
+.div-finalsection a{
+    cursor: pointer;
+}
+.div-finalsection input{
+    height: 2rem;
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 500px;
+    color: black;
+    border-bottom: black solid 1px;
+}
+.end-footer{
+    width: 100%;
+}
+.end-footer ol{
+    display: flex;
+}
+.end-footer ol li{
+    list-style: none;
+    margin: 2rem;
+    color: #717171;
+}
+
