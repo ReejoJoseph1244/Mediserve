@@ -3,5 +3,6 @@
 
 
 # Azure ChatBot Service
-![image](https://github.com/ReejoJoseph1244/Mediserve/assets/92742868/f1d88ce2-a3cf-4e13-8a89-f52d60463c5f)
+![image](https://github.com/ReejoJoseph1244/Mediserve/assets/92742868/08a53959-c7ff-4f93-b73c-e5b15f7f014b)
+
 
